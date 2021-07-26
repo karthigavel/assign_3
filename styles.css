@@ -1,0 +1,211 @@
+
+
+:root {
+    --primary-color: #007AF3;
+}
+
+body {
+    background-color:rgb(156, 110, 201); 
+    margin: 0;
+    font-family: 'Poppins';
+}
+.container{
+    margin-top: 0px;
+}
+
+
+    
+    
+section {
+    padding: 5em 2em;
+}
+
+.hero {
+    text-align: center;
+    background-color: rgb(156, 110, 201);
+    margin-top:0px;
+}
+
+.left-col {
+    text-transform: uppercase;
+    font-weight: bold;
+    color: gray;
+    letter-spacing: .3em;
+}
+
+    .subhead {
+        text-transform: uppercase;
+        font-weight: bold;
+       color: rgb(71, 13, 62);
+        letter-spacing: .3em;
+    }
+    .subhead2{
+        color: rgb(71, 13, 62);
+    }
+    h1 {
+        font-size: 2.5em;
+        line-height: 1.3em;
+        margin-top: .2em;
+    }
+    
+    .primary-cta {
+        background: violet;
+        color: white;
+        text-decoration: none;
+        padding: .6em 1.3em;
+        font-size: 1.4em;
+        border-radius: 5em;
+        font-weight: bold;
+        display: inline-block;
+    }
+    .watch-video-cta {
+        display: block;
+        margin-top: 3.5em;
+        color:white;
+    }
+    .videoimage
+    {
+        margin-right: .5em;
+      
+    }
+    .hero-img {
+        width: 70%;
+        margin-top: 3em;
+    }
+   /* .features-section {
+        background: #20272E;
+        color: white;
+    }
+
+    .features-list
+    {
+        margin: 0;
+        padding-left: .1em;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(19rem, 1fr));
+    }
+    .featureitems{
+        font-size: 1.1em;
+        margin-bottom: 1em;
+        margin-left: 2em;
+        position: relative;
+
+     
+            content: '';
+            left: -2em;
+            position: absolute;
+            width: 20px;
+            height: 20px;
+            background-image: url('https://assets.codepen.io/2621168/bullet.svg');
+            background-size: contain;
+            margin-right: .5em;
+    }*/
+
+    .features-section {
+        background: #2e202c;
+        color: white;
+    }
+    .featureitems{
+        font-size: 1.7em;
+        margin-bottom: 1em;
+        margin-left: 2em;
+        position: relative;
+    }
+
+    .featureimage{
+      
+        width:280px;
+        height:200px;
+       position: absolute;
+       right: -87px;
+
+top:175px;
+bottom:100px;
+    }
+
+    .testimonials-section{
+        background-color: palevioletred;
+        color: white;
+    }
+    .testimonialitems{
+        background: #6b2f50;
+        text-align: center;
+        padding: 2em 1em;
+        width: 80%;
+        margin: 0 auto 5em auto;
+        border-radius: 1em;
+    }
+    .testimonialimage {
+        width: 5em;
+            height: 5em;
+            border: 5px solid #6b2f50;
+            border-radius: 50%;
+            margin-top: -4.5em;
+    }
+
+  
+    .textheading{
+        color:#6b2f50 ;
+        display: block;
+        font-size: 1.7em;
+        margin-bottom: .5em;  
+        font-weight: bold;
+    }
+    
+    label {
+        color:#6b2f50 ;
+        display: block;
+        font-size: 1.2em;
+        margin-bottom: .5em;
+    }
+    
+    input, textarea {
+        width: 100%;
+        padding: .8em;
+        margin-bottom: 1em;
+        border-radius: .3em;
+        border: 1px solid palevioletred;;
+        box-sizing: border-box;
+    }
+    
+    input[type="submit"] {
+        background-color: palevioletred;;
+        color:#6b2f50 ;
+        font-weight: bold;
+        font-size: 1.3em;
+        border: none;
+        margin-bottom: 5em;
+        border-radius: 5em;
+        display: inline-block;
+        padding: .8em 2em;
+        width: unset;
+        cursor: pointer;
+    }
+    
+    iframe {
+        width: 100%;
+        height: 300px;
+    }
+    .subhead{
+        margin-top: 80px;
+    }
+    .hero-cta{
+        margin-top: 40px;
+    }
+    .watch-video-cta
+    {
+        margin-top: 30px;
+    }
+    .contact-section{
+        background-color: rgb(71, 36, 48);
+    }
+
+    
+
+
+
+
+
+
+
+    
